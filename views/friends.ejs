@@ -1,0 +1,18 @@
+<!-- friends.ejs -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>친구 목록</title>
+</head>
+<body>
+  <h1>친구 목록</h1>
+
+  <ul>
+    <% friends.forEach(friend => { %>
+      <li><%= friend.name %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
